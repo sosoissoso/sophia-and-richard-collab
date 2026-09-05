@@ -1,134 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ART 109 Project One</title>
 
-  <style>
-    body {
-      background-color: white;
-      color: #222222;
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      line-height: 1.6;
-    }
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-    h1, h2 {
-      color: #1b63a5;
-    }
+  <meta
+    name="description"
+    content="An HTML archive about judgment, assumptions, and the phrase don't judge a book by its cover."
+  >
 
-    a {
-      color: #1b63a5;
-    }
-
-    main {
-      max-width: 700px;
-    }
-  </style>
+  <title>If You Judge a Book by Its Cover | ART 109</title>
 </head>
 
 <body>
-  
-  <main> 
+
+  <header>
     <h1>If you judge a book by its cover...</h1>
-  
-    <p>
 
-      No one likes to be judged, but we do it anyways.
-      No one wants to be judged, but we do it anyways.
+    <p>
+      No one likes to be judged, but we do it anyways.<br>
+      No one wants to be judged, but we do it anyways.<br>
       Do you think you're any different? I can prove you wrong.
-
     </p>
+  </header>
 
-  
+  <hr>
 
-    <div>
-<details>
+  <main>
 
-  <summary>Click here for a blue book</summary>
-<img src="images/sophia-red.jpg" alt="red book cover" width="300" height="400">
+    <section aria-labelledby="archive-heading">
+      <h2 id="archive-heading">Choose a Book</h2>
 
-</details>
-    </div>
+      <p>
+        Each dropdown says that a specific colored book is hidden inside.
+        Read the label, imagine the book, and then click it.
+      </p>
 
-    <div>
-<details>
+      <details>
+        <summary>Click here for a blue book</summary>
 
-  <summary>Click here for a red book</summary>
-<img src="images/sophia-orange.jpg" alt="orange book cover" width="300" height="400">
+        <img
+          src="images/sophia-red.jpg"
+          alt="A red book cover"
+          width="300"
+          height="400"
+        >
+      </details>
 
-</details>
-    </div>
+      <details>
+        <summary>Click here for a red book</summary>
 
-    <div>
-<details>
+        <img
+          src="images/sophia-orange.jpg"
+          alt="An orange book cover"
+          width="300"
+          height="400"
+          loading="lazy"
+        >
+      </details>
 
-  <summary>Click here for a yellow book</summary>
-<img src="images/sophia-blue.jpg" alt="blue book cover" width="300" height="400">
+      <details>
+        <summary>Click here for a yellow book</summary>
 
-</details>
-    </div>
+        <img
+          src="images/sophia-blue.jpg"
+          alt="A blue book cover"
+          width="300"
+          height="400"
+          loading="lazy"
+        >
+      </details>
 
-        <div>
-<details>
+      <details>
+        <summary>Click here for a purple book</summary>
 
-  <summary>Click here for a purple book</summary>
-<img src="images/sophia-green.jpg" alt="green book cover" width="300" height="400">
+        <img
+          src="images/sophia-green.jpg"
+          alt="A green book cover"
+          width="300"
+          height="400"
+          loading="lazy"
+        >
+      </details>
 
-</details>
-    </div>
+      <details>
+        <summary>Click here for a black book</summary>
 
-        <div>
-<details>
+        <img
+          src="images/sophia-yellow.jpg"
+          alt="A yellow book cover"
+          width="300"
+          height="400"
+          loading="lazy"
+        >
+      </details>
 
-  <summary>Click here for a black book</summary>
-<img src="images/sophia-yellow.jpg" alt="yellow book cover" width="300" height="400">
+      <details>
+        <summary>Click here for a green book</summary>
 
-</details>
-    </div>
+        <img
+          src="images/sophia-black.jpg"
+          alt="A black book cover"
+          width="300"
+          height="400"
+          loading="lazy"
+        >
+      </details>
 
-        <div>
-<details>
+      <details>
+        <summary>Click here for an orange book</summary>
 
-  <summary>Click here for a green book</summary>
-<img src="images/sophia-black.jpg" alt="red book cover" width="300" height="400">
+        <!-- Keep all four purple image files inside the images folder. -->
+        <img
+          src="images/sophia-purple.jpg"
 
-</details>
-    </div>
+          srcset="
+            images/sophia-purple-640.jpg 640w,
+            images/sophia-purple-1280.jpg 1280w,
+            images/sophia-purple-1920.jpg 1920w
+          "
 
-            <div>
-<details>
+          sizes="300px"
+          alt="A purple book cover"
+          width="300"
+          height="400"
+          loading="lazy"
+        >
+      </details>
+    </section>
 
-  <summary>Click here for a orange book</summary>
-<img src="images/sophia-purple.jpg" alt="purple book cover" 
-    srcset="images/sophia-purple-640.jpg 640w,
-            images/sophia-purple-1280.jpg 1280w
-            images/sophia-purple-1920.jpg 1920w">
+    <hr>
 
-</details>
-    </div>
+    <section aria-labelledby="reflection-heading">
+      <h2 id="reflection-heading">Did You Get Fooled?</h2>
 
-    <p>
-     
+      <p>
+        Did you assume the color of each book based only on the text?
+        Were you surprised to see that the book cover was not what you
+        expected? Were you disappointed? Why were you disappointed?
+        Was it because you judged something from a biased standpoint
+        before you actually saw it?
+      </p>
 
-    </p>
+      <p>
+        This is a visual representation of how easily we can be tricked
+        by our own assumptions and biases. The labels in the dropdowns
+        are not what they seem. This serves as a reminder to question
+        our first impressions, look deeper for the truth, and ask why
+        we believed something in the first place.
+      </p>
+    </section>
 
+    <hr>
 
-      Did you get fooled? Did you just assume base off of the text? Were you surprised to see 
-      that the color of the book cover was not what you expected? Were you disappointed? Why were you disappointed? Was it because you judged something from a biased standpoint?
-      This is a visual representation of how we can be tricked by our assumptions and biases. 
-      The colors of the dropdown are not what they seem, and this serves as a reminder to question our initial perceptions and to 
-      look deeper for the truth.
+    <section aria-labelledby="members-heading">
+      <h2 id="members-heading">Group Members</h2>
 
-    </p>
-    
- <h2>Group Members</h2>
+      <ul>
+        <li>Richard Rojas-Rangel</li>
+        <li>Sophia Nguyen</li>
+      </ul>
+    </section>
 
-    <ul>
-      <li>Richard Rojas-Rangel</li>
-      <li>Sophia Nguyen</li>
-    </ul>
   </main>
+
+</body>
+
+</html>
 </body>
 </html>
